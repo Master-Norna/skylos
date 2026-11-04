@@ -1,5 +1,30 @@
 ## Changelog
 
+## [5.5.0](https://github.com/duriantaco/skylos/compare/v5.4.0...v5.5.0) (2026-11-04)
+
+
+### Features
+
+* **cli:** skylos setup, skylos open and the codebase graph ([#1162](https://github.com/duriantaco/skylos/issues/1162)) ([c04268e](https://github.com/duriantaco/skylos/commit/c04268e513ac6efb60c4c53c76fe38eeebd92906))
+* **csharp:** model ASP.NET sources, typed sinks and unsafe deserialisation  ([#1166](https://github.com/duriantaco/skylos/issues/1166)) ([0496f64](https://github.com/duriantaco/skylos/commit/0496f648a38c07f35ae33728f2345d198eb8c521))
+* **go:** model SQL libraries, XSS and framework sinks in the Go engine ([#1157](https://github.com/duriantaco/skylos/issues/1157)) ([b51dd2c](https://github.com/duriantaco/skylos/commit/b51dd2c2b581564b9478aca4108f9ce616fa1a1b))
+* **java:** expand security checks and spring request tracking ([#1156](https://github.com/duriantaco/skylos/issues/1156)) ([df4fa52](https://github.com/duriantaco/skylos/commit/df4fa52bae0f5b30a8d58778bcadeec16d2cca51))
+* **kotlin:** improve dead code detection and add security checks ([#1164](https://github.com/duriantaco/skylos/issues/1164)) ([9a4a3e3](https://github.com/duriantaco/skylos/commit/9a4a3e362eb303f27396ef20cf93e38e65151449))
+* **php:** add command, code execution, XSS and Laravel SQL checks ([#1167](https://github.com/duriantaco/skylos/issues/1167)) ([2b0d60a](https://github.com/duriantaco/skylos/commit/2b0d60ab03c78f1939aa545dc209f8726c8cc8b6))
+* **sca:** scan dependencies across more package managers ([#1163](https://github.com/duriantaco/skylos/issues/1163)) ([0fc6fc2](https://github.com/duriantaco/skylos/commit/0fc6fc2405d419c537ac1100dba754079dd607b9))
+* **security:** expand Python security coverage and add CWE IDs ([#1154](https://github.com/duriantaco/skylos/issues/1154)) ([d011d64](https://github.com/duriantaco/skylos/commit/d011d64c550c161d2ffb18e0840a24899492ccd8))
+* **suppress:** honour skylos ignore comments in every language and widen secrets coverage ([#1152](https://github.com/duriantaco/skylos/issues/1152)) ([64936c8](https://github.com/duriantaco/skylos/commit/64936c874f16c73823e0674b871ec956d31e0f8d))
+* **typescript:** expand request taint tracking and add nosql injection checks ([#1155](https://github.com/duriantaco/skylos/issues/1155)) ([724f7a7](https://github.com/duriantaco/skylos/commit/724f7a7e87e6a4f5d8e6089e2630890aae5490d5))
+
+
+### Bug Fixes
+
+* **deadcode:** fix shared-name references and nested file leaks ([#1165](https://github.com/duriantaco/skylos/issues/1165)) ([0af927e](https://github.com/duriantaco/skylos/commit/0af927e1ad62c152592f767334717abc77a0b910))
+* **deadcode:** match python registration decorators and read plugin entry points ([#1153](https://github.com/duriantaco/skylos/issues/1153)) ([613727e](https://github.com/duriantaco/skylos/commit/613727e7567669d44e7fbaff67b6d0f778f139df))
+* **security:** avoid repeated YAML import scans ([#1161](https://github.com/duriantaco/skylos/issues/1161)) ([bf241af](https://github.com/duriantaco/skylos/commit/bf241af31331cc5b1f7112112e5e238a732e1846))
+* **security:** close Python OWASP detection gaps ([#1160](https://github.com/duriantaco/skylos/issues/1160)) ([6f83010](https://github.com/duriantaco/skylos/commit/6f830108160a389ad3697e00aff2fdfd3d1c270b))
+* **security:** improve python security rule precision ([#1159](https://github.com/duriantaco/skylos/issues/1159)) ([9cf0b2b](https://github.com/duriantaco/skylos/commit/9cf0b2b7d376ee1bdddab9fd8147d80de30c2736))
+
 ## [5.4.0](https://github.com/duriantaco/skylos/compare/v5.3.0...v5.4.0) (2026-11-02)
 
 
